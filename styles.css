@@ -39,6 +39,33 @@
 .subtitle a:first-child {
     margin-left: 0;
 }
+.social-icons-container {
+    display: flex; /* Activa el modelo de caja flexible */
+    
+}
+
+.social-icons {
+    margin-right: 10px; /* Espacio entre los grupos de iconos */
+}
+
+.icon-container {
+    width: 40px; /* Tamaño del cuadrado */
+    height: 40px; /* Tamaño del cuadrado */
+    border: 1px solid #000; /* Borde del recuadro */
+    display: inline-flex; /* Ajusta el tamaño del contenedor al contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    border-radius: 10px;
+    padding: 5px;
+    justify-content: center; /* Centra horizontalmente el contenido */
+}
+
+.icon-container img {
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen al contenedor */
+    max-height: 100%; /* Ajusta el tamaño máximo de la imagen al contenedor */
+}
+
+
+
 
 body {
     font-family: 'Inter', sans-serif;
@@ -49,6 +76,8 @@ body {
     background-color: #f2f2f2; /* Fondo gris */
     padding: 20px; /* Agregar espacio interno alrededor del contenido */
 }
+
+
 
 .texto1 {
     display: flex; /* Utiliza flexbox para disposición horizontal */
@@ -76,7 +105,7 @@ body {
     background-color: #766df4; /* Color de fondo púrpura */
     color: #fff; /* Color de texto blanco */
     border: none; /* Sin bordes */
-    padding: 10px 20px; /* Espaciado interno */
+    padding: 20px 31px; /* Espaciado interno */
     border-radius: 5px; /* Bordes redondeados */
     cursor: pointer; /* Cambio de cursor al pasar el ratón */
 }
@@ -113,7 +142,33 @@ body {
     height: auto; /* Altura automática para mantener la proporción */
 }
 
+.pagination-container {
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.pagination {
+    font-size: 20px;
+}
+.page-number {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 5px;
+}
 
+h1, h2{
+    color: #535469;
+}
+
+
+p{
+    color: #737491;
+}
 
 
 
