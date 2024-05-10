@@ -163,7 +163,6 @@ body {
     display: inline-block;
     width: 30px;
     height: 30px;
-    background-color: #e6e6e6;
     border: 1px solid #00000011;
     text-align: center;
     line-height: 30px;
@@ -178,6 +177,20 @@ h1, h2{
 p{
     color: #737491;
 }
+.tiempo {
+    font-size: 15px;
+    color: #535353; /* Color de texto gris, ajusta según tu preferencia */
+    margin-bottom: 20px; 
+    padding: 40px;
+}
+.fecha {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 12px;
+    color: #888; /* Color de texto gris, ajusta según tu preferencia */
+}
+
 
 
 
@@ -198,47 +211,42 @@ p{
     align-items: center; /* Alinea los elementos verticalmente */
 }
 
-.footer-section {
-    width: 30%; /* Ancho de cada sección */
-}
+
 
 .footer-section h3 {
-    margin-bottom: 10px; /* Espaciado inferior del título */
+    margin-bottom: 10px; 
 }
 
 .footer-section p {
-    margin-bottom: 5px; /* Espaciado inferior de los párrafos */
+    margin-bottom: 5px; 
 }
 
 .footer-subscribe {
-    margin-top: 20px; /* Espaciado superior */
+    margin-top: 20px; 
 }
 
 .footer-subscribe h3 {
-    margin-bottom: 10px; /* Espaciado inferior del título */
+    margin-bottom: 10px; 
 }
 
-/* Estilos para el borde redondeado del email */
+
 .email {
     display: inline-block;
     padding: 5px 10px;
-    border: 1px solid #fff;
     border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.1); /* Fondo ligeramente transparente */
     margin-right: 10px;
 }
 
-/* Estilos para el contenedor del email y el botón */
 .subscribe-input {
     display: flex;
     align-items: center;
 }
 
 .subscribe-input input[type="email"] {
-    width: calc(100% - 120px); /* Ancho del campo de entrada de correo electrónico */
-    padding: 10px; /* Espaciado interno */
-    margin-right: 10px; /* Espaciado a la derecha */
-    border-radius: 20px 0 0 20px; /* Borde redondeado solo en la esquina izquierda */
+    width: calc(100% - 120px); 
+    padding: 10px; 
+    margin-right: 10px; 
+    border-radius: 20px 0 0 20px; 
 }
 
 .subscribe-input button {
@@ -246,22 +254,22 @@ p{
     color: #fff; 
     border: none; 
     padding: 10px 20px; 
-    border-radius: 0 20px 20px 0; /* Borde redondeado solo en la esquina derecha */
+    border-radius: 0 20px 20px 0; 
     cursor: pointer; 
 }
 
 .social-icons {
     display: flex;
-    justify-content: center; /* Centra los iconos horizontalmente */
+    justify-content: center; 
 }
 
 .icon-box {
-    width: 40px; /* Ancho del recuadro del icono */
-    height: 40px; /* Altura del recuadro del icono */
-    margin-right: 10px; /* Espaciado entre los iconos */
+    width: 40px; 
+    height: 40px; 
+    margin-right: 10px; 
 }
 
 .icon-box img {
-    max-width: 100%; /* Ajusta el tamaño máximo de la imagen al recuadro */
-    max-height: 100%; /* Ajusta el tamaño máximo de la imagen al recuadro */
+    max-width: 100%; 
+    max-height: 100%; 
 }
