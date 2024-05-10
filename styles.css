@@ -1,15 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
 .title-and-menu {
     display: flex;
-    align-items: center; /* Alinea los elementos verticalmente */
+    align-items: center;
 }
 
 .title-and-menu h1 {
-    margin-right: 20px; /* Ajusta el margen para separar "Around" de los enlaces */
+    margin-right: 20px;
 }
 
 .li.demo {
     color: #766df4;
 }
+
 .container {
     margin-bottom: 300px;
     width: 89%;
@@ -20,8 +23,8 @@
     align-items: center;
 }
 
-header img{
-    border-radius: 38px; 
+header img {
+    border-radius: 38px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     width: 84px;
     margin-left: 50px;
@@ -29,18 +32,16 @@ header img{
 
 header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
+
 .social-icons img {
-    width: 40px; /* Tamaño de los iconos */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    border-radius: 38px; 
+    width: 40px;
+    border-radius: 38px;
     height: auto;
-    margin-left: 10px; /* Espacio entre los iconos */
+    margin-left: 10px;
 }
 
 h1 {
@@ -57,95 +58,84 @@ nav ul {
 nav ul li {
     display: inline;
     margin-left: 60px;
+    
 }
 
 nav ul li a {
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
-    color:#37384e;
+    color: #37384e;
+   
 }
-nav ul li a.demo{
+
+nav ul li a.demo {
     color: #766df4;
-
 }
-
 
 body {
-    margin: 0;
     font-family: 'Inter', sans-serif;
+    margin: 0;
+    
 }
 
-
 .gray-background {
-    background-color: #f2f2f2; /* Fondo gris */
-    padding: 20px; /* Agregar espacio interno alrededor del contenido */
+    background-color: #f2f2f2;
+    padding: 20px;
     margin-top: 30px;
 }
 
-
-
 .texto1 {
-    display: flex; /* Utiliza flexbox para disposición horizontal */
-    align-items: center; /* Centra verticalmente los elementos */
+    display: flex;
+    align-items: center;
 }
 
 .image-container {
-    flex: 0 0 auto; /* No se expande, tamaño automático */
-    margin-right: 20px; /* Espacio a la derecha de la imagen */
-    margin-top: 10px; /* Margen superior */
-    margin-bottom: 10px; /* Margen inferior */
+    flex: 0 0 auto;
+    margin-right: -100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .image-container img {
-    max-width: 70%; /* Asegura que la imagen no exceda el tamaño del contenedor */
-    border-radius: 8px; /* Bordes redondeados para la imagen */
-    margin-left: 10px; /* Separación de la izquierda */
+    max-width: 70%;
+    border-radius: 8px;
+    margin-left: 10px;
 }
 
 .text-container {
-    flex: 1; /* Se expande para ocupar el espacio restante */
+    flex: 1;
 }
 
 .purple-button {
-    background-color: #766df4; /* Color de fondo púrpura */
-    color: #fff; /* Color de texto blanco */
-    border: none; /* Sin bordes */
-    padding: 20px 31px; /* Espaciado interno */
-    border-radius: 5px; /* Bordes redondeados */
-    cursor: pointer; /* Cambio de cursor al pasar el ratón */
+    background-color: #766df4;
+    color: #fff;
+    border: none;
+    padding: 20px 31px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-
-
-
-
-/* Estilos para el recuadro */
 .recuadro {
-    border-radius: 10px; /* Borde redondeado */
-    border: 1px solid #ccc; /* Borde con color gris */
-    padding: 20px; /* Espacio interno */
+    border-radius: 10px;
+    border: 1px solid #ccc;
     margin-top: 30px;
 }
 
-/* Estilos para el contenido dentro del recuadro */
 .contenido {
     display: flex;
-    align-items: center; /* Centra verticalmente el contenido */
+    align-items: center;
 }
 
-/* Estilos para el texto dentro del recuadro */
 .texto {
-    margin-left: 20px; /* Espacio a la izquierda del texto */
+    margin-left: 20px;
 }
 
 .texto h2 {
-    margin-bottom: 10px; /* Espacio inferior del título */
+    margin-bottom: 10px;
 }
 
-/* Estilos para las imágenes pequeñas */
 .imagen-pequeña {
-    width: 600px; /* Ancho de la imagen */
-    height: auto; /* Altura automática para mantener la proporción */
+    width: 600px;
 }
 
 .pagination-container {
@@ -153,12 +143,14 @@ body {
     margin-top: 20px;
     margin-right: 20px;
 }
+
 .pagination {
-    font-size: 20px;
+    
     display: flex;
     justify-content: flex-end;
     margin: 15px;
 }
+
 .page-number {
     display: inline-block;
     width: 30px;
@@ -166,15 +158,37 @@ body {
     border: 1px solid #00000011;
     text-align: center;
     line-height: 30px;
-    margin: 0 5px;
+    margin: 0 10px;
+}
+.pagina {
+    display: flex;
+    align-items: center; /* Alinear verticalmente */
 }
 
-h1, h2{
+.frase {
+    margin-right: 20px; /* Separación entre la frase y el recuadro */
+}
+
+.recuadro-grande {
+    width: 62px; 
+    height: 26px;
+    border: 1px solid #979797; 
+    border-radius: 8px; 
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center; 
+    font-size: 20px; 
+    color: #535469; 
+    margin-right: 10px;
+}
+
+
+h1,
+h2 {
     color: #535469;
 }
 
-
-p{
+p {
     color: #737491;
 }
 .tiempo {
@@ -192,23 +206,16 @@ p{
 }
 
 
-
-
-
-
-
-
 .footer {
-    background-color: #37384e; /* Cambia el color de fondo según tus preferencias */
-    color: #fff; /* Cambia el color del texto según tus preferencias */
-    padding: 50px; /* Espaciado interno */
-    text-align: center; /* Alinea el contenido al centro */
+    background-color: #37384e;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
 }
 
 .footer-content {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Alinea los elementos verticalmente */
 }
 
 
