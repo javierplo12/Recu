@@ -105,26 +105,42 @@
             </div>
         </div>
     </div>
-    <div class="pagina">
-        <p class="frase">Show <div class="recuadro-grande">6   ⬇️</div></p>   <p> post per page</p>     
-    </div>
-    
-    <div class="pagination">
-        &lt; <span class="page-number">1</span> <span class="page-number">2</span> <span class="page-number">3</span>
-        <span class="page-number">4</span> ... <span class="page-number">10</span> &gt;
-    </div>
+    <div class="pagination-container">
+        <div class="pagination-info">
+            <label for="posts-per-page">Show</label>
+            <select id="posts-per-page" name="posts-per-page">
+                <option value="6">6</option>
+                <option value="12">12</option>
+                <option value="18">18</option>
+                <option value="24">24</option>
+            </select>
+            <span>posts per page</span>
+        </div>
+        <div class="pagination-controls">
+            <a href="#" class="prev">&laquo;</a>
+            <a href="#">1</a>
+            <a href="#" class="active">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <span>...</span>
+            <a href="#">10</a>
+            <a href="#" class="next">&raquo;</a>
+        </div>
     </div>
 
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-section contact-section">
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section contacts">
                 <h3>Contacts</h3>
-                <p> <span class="email">✉️ amelie.chef@example.com</span></p>
-                <p>📱 910-784-8015</p>
+                <p><i class="fas fa-envelope"></i> amelie.chef@example.com</p>
+                <p><i class="fas fa-phone"></i> 910-784-8015</p>
             </div>
-            
-            <div class="footer-section follow-section">
+            <div class="footer-section follow">
                 <h3>Follow</h3>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
                 <div class="social-icons">
                     <div class="icon-box"><img src="/Imagenes/facebook.png" alt="Facebook"></div>
                     <div class="icon-box"><img src="/Imagenes/twitter.png" alt="Twitter"></div>
@@ -132,18 +148,20 @@
                     <div class="icon-box"><img src="/Imagenes/pinterest.png" alt="Pinterest"></div>
                 </div>
             </div>
-            <div class="footer-section subscribe-section">
-                <h3>Suscribe and never miss a post</h3>
-                <form action="#" method="post">
-                    <div class="subscribe-input">
-                        <input type="email" name="email" placeholder="Your email address"> <button
-                            type="submit">Suscribe*</button>
-
-                    </div>
+            <div class="footer-section subscribe">
+                <h3>Subscribe and never miss a post!</h3>
+                <form action="#">
+                    <input type="email" placeholder="Your email" required>
+                    <button type="submit">Subscribe*</button>
                 </form>
+                <p>*Subscribe to our newsletter to receive early discount offers, updates and new products info.</p>
             </div>
         </div>
+        <div class="footer-bottom">
+            <p>© All rights reserved. Made by Createx Studio</p>
+        </div>
     </footer>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </body>
 
 </html>
